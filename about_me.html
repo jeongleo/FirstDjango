@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About me</title>
+        <link href="./bootstrap-4.6.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+        <script type="text/javascript" src="nowTime.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">Just Do It!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog_list.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about_me.html">About Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.google.com">Google</a>
+                                <a class="dropdown-item" href="https://www.naver.com">Naver</a>
+                                <a class="dropdown-item" href="https://www.getbootstrap.com">Bootstrap</a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-9">
+                    <h1>About Me</h1>
+                    <h2>I'm Minho Jeong, from Busan</h2>
+                    <p>I like programming and explosion.</p>
+            
+                    <button onclick="nowTime()">Now Time</button>
+                    <hr/>
+            
+                    <a href="index.html">Go to Main Page</a>
+                </div>
+                <div class="col-3">
+                    <img src="./images/sky.jpg" class="img-fluid w-100">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col-sm col-lg-6 bg-info">
+                    <img src="./images/spacex.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm col-lg-3 bg-secondary">
+                    <img src="./images/nuri.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm col-lg-3 bg-warning">
+                    <img src="./images/spaceshuttle.jpg" class="img-fluid">
+                </div>
+            </div>
+        
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        </div>
+        
+    </body>
+</html>
